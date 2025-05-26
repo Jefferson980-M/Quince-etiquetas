@@ -126,6 +126,48 @@ a{
     text-decoration: none;
 }
 
+#profile{
+  display: flex;
+}
+
+.foto {
+    display: flex;
+    width: 200px;
+    width: 150px;
+    height: 220px;
+    margin: 40px;
+    border-radius: 10px 10px 10px 10px;
+    border: 3px solid;
+}
+
+.html {
+    width: 140px;
+    
+}
+
+.css {
+    width: 80px;
+}
+
+.autodesk {
+    width: 70px;
+    margin-left: 43px;
+}
+
+ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+li{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+
 .submit{
   color: black;
 }
+
