@@ -58,15 +58,68 @@
   </section>
 
   <section id="contact">
-    <h2>Contact</h2>
-    <address>
-      Email: Molinajefferson998@gmail.com<br>
-      Tel: +57 3215513296
-    </address>
+      <h2>Formulario de contacto</h2>
+        <form>
+        <!-- SIMPLE INPUTS -->
+        <fieldset>
+            <legend>INFORMACION BASICA</legend>
+            <div class="form_input">
+                <label>Nombre completo
+                    <input type="text" placeholder="Jefferson Molina">
+                </label>
+            </div>
+            <div class="form_input">
+                <label>Email
+                    <input type="email" placeholder="pepe@gmail.com">
+                </label>
+            </div>
+                <div class="form_input">
+                <label>Asunto
+                    <input type="text" placeholder="Asunto de tu mensaje">
+                </label>
+            </div>
+        </fieldset>
+        <!-- SELECT AND OPTION -->
+        <fieldset>
+          <legend>DEJANOS TU MENSAJE</legend>
+        <div class="form_input">
+            <label>Tipo de usuario
+            <select>
+                <option value="user1">Persona natural </option>
+                <option value="user2">Empresa </option>
+                <option value="user3">Otros </option>
+            </select>
+            </label>
+        </div>
+        <!-- DATALIST AND OPTION -->
+        <div class="form_input">
+            <label>Referente
+                <input list="reference">
+                    <datalist id="reference" name="type-of-user">
+                        <option value="Una empresa">Una empresa del rubro
+                        <option value="Un amigo">Me recomendo un amigo
+                    </datalist>
+            </label>
+        </div>
+
+        <!-- TEXT AREA -->
+        </div>
+        <div class="form_input">
+            <label>Mensaje
+                <textarea rows="8" placeholder="Deja tu mensaje..."></textarea>
+            </label>
+        </div>
+        </fieldset>
+
+        <div class="form_input">
+          <input class="submit" type="submit" value="Send">
+        </div>
+    </form>
   </section>
 
   <footer>
     <p>&copy; 2025 Jefferson Molina Soto</p>
   </footer>
+
 </body>
 </html>
