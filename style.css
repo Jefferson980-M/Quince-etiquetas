@@ -171,3 +171,30 @@ li{
   color: black;
 }
 
+h2{
+  border-bottom: .2vW solid  #2b7a78;
+  width: 50%;
+  overflow:hidden;
+  animation: anim 5s linear forwards infinite;
+  
+}
+
+@keyframes anim {
+  0%{
+    width: 0;
+    height:0;
+  }
+
+  30%{
+    width: 50%;
+    height: 0;
+  }
+  60%{
+    width: 40vw;
+    height: 5vw;
+  }
+  100%{
+    width: 40vw;
+    height: 2vw;
+  }
+}
